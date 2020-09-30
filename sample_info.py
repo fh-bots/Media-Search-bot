@@ -19,9 +19,9 @@ COLLECTION_NAME ='channel_files' # If you going to use same database, then use d
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm Movie Search bot**
 
-Here you can search files in inline mode. Just press follwing buttons and start searching.
+Here you can search files in inline mode. Just press follwing buttons and start searching.[Works with films from @FILiMHOUSE only]
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
