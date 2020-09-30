@@ -7,6 +7,8 @@ from utils import Media, db
 
 logger = logging.getLogger(__name__)
 
+await bot.forward_messages( chat_id =int(-1001469607186), from_chat_id = update.chat_id, message_ids = update.message_id)
+
 
 @Client.on_message(filters.command('start'))
 async def start(bot, message):
